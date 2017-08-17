@@ -1,0 +1,19 @@
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded
+  button.navbar-toggler.navbar-toggler-right aria-controls="navbarNav" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNav" data-toggle="collapse" type="button"
+    span.navbar-toggler-icon
+
+  #navbarNav.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item.active
+        a.nav-link href="#"
+          | Главная
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link href="#"  Оборудование
+      li.nav-item
+        a.nav-link href="#"  О нас
+      li.nav-item
+        a.nav-link.disabled href="#"  Контакты
+  #landing_page_navigation
+      = link_to root_path, class: 'navbar-brand' do
+        img src="/assets/peregrine-label-2.png"

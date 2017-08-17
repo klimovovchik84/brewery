@@ -1,0 +1,38 @@
+.container-fluid {
+  position: fixed;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  nav {
+    background-image: url(/assets/IMG_3029_proc_trim1.png);
+    opacity: 0.9;
+    background-color: #c7b39b;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40mm;
+  }
+  #navbarNav {
+    background-color: rgba(51, 51, 51, 0.4);
+    a {
+      color: white;
+    }
+    li {
+      padding: 0px 0px;
+    }
+  }
+  #landing_page_navigation {
+    padding: 0px 0px 0px 10px;
+    .navbar-brand {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+      img {
+        height: 110px;
+        border: 1px solid grey;
+      }
+      background-color: rgba(78, 78, 78, 0.5);
+      color: white;
+      font-size: 16px;
+      span { font-size: 36px; }
+      &:hover { background-color: none !important; }
+    }
+  }
+}
