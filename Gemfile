@@ -57,3 +57,5 @@ gem "slim-rails"
 gem 'slim'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'jquery-rails'
+gem 'rails_12factor', group: :production
+ruby '2.3.1'
